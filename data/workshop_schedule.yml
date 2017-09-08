@@ -1,0 +1,9 @@
+- day: "Workshops -> Saturday"
+  schedule:
+    - workshop: "Creating Programming Language from Scratch"
+      trainer_1: "Kjetil Valle"
+      trainer_2: "Joel Chelliah"
+      time: "14:30 - 18:30"
+    - workshop: "Scala is love"
+      trainer_1: "Kamen Kotsev"
+      time: "14:30 - 18:30"

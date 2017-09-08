@@ -1407,3 +1407,37 @@ textarea { resize: vertical; }
     .article-description { width: 100%; }
   }
 }
+
+.schedule {
+  width: 100%;
+
+  h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: $blue;
+    text-align: right;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .schedule-time {
+    span {
+      color: $blue;
+      font-weight: bold;
+    }
+    width: 30%;
+    vertical-align: middle;
+    text-align: right;
+  }
+
+  .description {
+    width: 70%;
+    font-size: 1em;
+  }
+
+  a.fancy {
+    color: $blue;
+  }
+}

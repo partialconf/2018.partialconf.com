@@ -1,0 +1,63 @@
+---
+title: Schedule
+---
+
+<%= partial 'header' %>
+
+<div class="spacing-bottom">
+  <div class="container">
+    <h1>Schedule</h1>
+      <div class="schedule">
+        <% data.schedule.each do |meta| %>
+          <table>
+            <thead>
+              <tr>
+                <th><h4><%= meta.day %></h4></th>
+              </tr>
+            </thead>
+            <% meta.schedule.each do |sch_element| %>
+              <tbody>
+                <tr>
+                  <td class="schedule-time"><span><%= sch_element.time %></span></td>
+                  <% if sch_element.type == 'info' %>
+                    <td class="description"><%= sch_element.description %></td>
+                  <% else %>
+                    <td class="description">
+                      <%= sch_element.talk %><br/>
+                      <%= link_to sch_element.speaker, "/lineup##{sch_element.speaker.parameterize}", class: "fancy" %>
+                    </td>
+                  <% end %>
+                </tr>
+              </tbody>
+            <% end %>
+          </table>
+        <% end %>
+        <% data.workshop_schedule.each do |meta| %>
+          <table>
+            <thead>
+              <tr>
+                <th><h4><%= meta.day %></h4></th>
+              </tr>
+            </thead>
+            <% meta.schedule.each do |sch_element| %>
+              <tbody>
+                <tr>
+                  <td class="schedule-time"><span><%= sch_element.time %></span></td>
+                  <td class="description">
+                    <%= sch_element.workshop %><br/>
+                    <%= link_to sch_element.trainer_1, "/lineup##{sch_element.trainer_1.parameterize}", class: "fancy" %>
+                    <% if sch_element.trainer_2 %>
+                      & <%= link_to sch_element.trainer_2, "/lineup##{sch_element.trainer_2.parameterize}", class: "fancy" %>
+                    <% end %>
+                  </td>
+                </tr>
+              </tbody>
+            <% end %>
+          </table>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= partial 'footer' %>

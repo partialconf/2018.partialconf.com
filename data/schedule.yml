@@ -1,0 +1,59 @@
+- day: "Talks -> Firday"
+  schedule:
+    - type: info
+      description: "Registration and Morning Coffee"
+      time: "09:00 - 09:50"
+    - type: info
+      description: "Introduction"
+      time: "09:50 - 10:00"
+    - type: talk
+      talk: "Basic Guarantees of Erlang VM (BEAM)"
+      speaker: Saša Jurić
+      time: "10:00 - 10:40"
+    - type: talk
+      talk: "The Functional Discipline"
+      speaker: "Pedro Costa"
+      time: "10:50 - 11:30"
+    - type: talk
+      talk: "Immutable Data Structures for Functional JS"
+      speaker: Anjana Vakil
+      time: "11:40 - 12:20"
+    - type: info
+      description: "Lunch break"
+      time: "12:20 - 14:30"
+    - type: talk
+      talk: "Persistent Data Structures"
+      speaker: "Ivan Vergiliev"
+      time: "14:30 - 15:10"
+    - type: talk
+      talk: "Using Clojurescript to Launch iOS/Android Apps to 1M Users"
+      speaker: "Emin Hasanov"
+      time: "15:20 - 16:00"
+    - type: info
+      description: "Coffee break"
+      time: "16:00 - 16:30"
+    - type: talk
+      talk: "Functional Programming in React"
+      speaker: "Anna Doubkova"
+      time: "16:30 - 17:10"
+    - type: talk
+      talk: "Clojure: The Bad Parts"
+      speaker: "Bozhidar Batzov"
+      time: "17:20 - 18:00"
+- day: "Talks -> Saturday"
+  schedule:
+    - type: info
+      description: "Morning Coffee"
+      time: "09:00 - 10:00"
+    - type: talk
+      talk: "Side Effects Saga"
+      speaker: "Yulia Startsev"
+      time: "10:00 - 10:40"
+    - type: talk
+      talk: "Elm"
+      speaker: "Ilias Van Peer"
+      time: "10:50 - 11:30"
+    - type: talk
+      talk: "Actor Model in Elixir"
+      speaker: "Michał Muskała"
+      time: "11:40 - 12:20"
