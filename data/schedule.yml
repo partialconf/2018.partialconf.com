@@ -1,6 +1,8 @@
 - day: "Talks -> Firday"
   schedule:
     - type: info
+      talk: "Clojure: The Bad Parts"
+      speaker: "Bozhidar Batzov"
       description: "Registration and Morning Coffee"
       time: "09:00 - 09:50"
     - type: info
@@ -19,7 +21,7 @@
       speaker: Anjana Vakil
       time: "11:40 - 12:20"
     - type: info
-      description: "Lunch break"
+      description: "Lunch Break"
       time: "12:20 - 14:30"
     - type: talk
       talk: "Persistent Data Structures"
@@ -30,16 +32,17 @@
       speaker: "Emin Hasanov"
       time: "15:20 - 16:00"
     - type: info
-      description: "Coffee break"
+      description: "Coffee Break"
       time: "16:00 - 16:30"
     - type: talk
       talk: "Functional Programming in React"
       speaker: "Anna Doubkova"
       time: "16:30 - 17:10"
     - type: talk
-      talk: "Clojure: The Bad Parts"
-      speaker: "Bozhidar Batzov"
+      talk: "Actor Model in Elixir"
+      speaker: "Michał Muskała"
       time: "17:20 - 18:00"
+
 - day: "Talks -> Saturday"
   schedule:
     - type: info
@@ -54,6 +57,6 @@
       speaker: "Ilias Van Peer"
       time: "10:50 - 11:30"
     - type: talk
-      talk: "Actor Model in Elixir"
-      speaker: "Michał Muskała"
+      talk: "Basic Guarantees of Erlang VM (BEAM)"
+      speaker: Saša Jurić
       time: "11:40 - 12:20"
