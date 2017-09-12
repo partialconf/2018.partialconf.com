@@ -1,16 +1,14 @@
 - day: "Talks -> Firday"
   schedule:
     - type: info
-      talk: "Clojure: The Bad Parts"
-      speaker: "Bozhidar Batzov"
       description: "Registration and Morning Coffee"
       time: "09:00 - 09:50"
     - type: info
       description: "Introduction"
       time: "09:50 - 10:00"
     - type: talk
-      talk: "Basic Guarantees of Erlang VM (BEAM)"
-      speaker: Saša Jurić
+      talk: "Clojure: The Bad Parts"
+      speaker: "Bozhidar Batzov"
       time: "10:00 - 10:40"
     - type: talk
       talk: "The Functional Discipline"
@@ -21,7 +19,7 @@
       speaker: Anjana Vakil
       time: "11:40 - 12:20"
     - type: info
-      description: "Lunch Break"
+      description: "Lunch break"
       time: "12:20 - 14:30"
     - type: talk
       talk: "Persistent Data Structures"
@@ -32,7 +30,7 @@
       speaker: "Emin Hasanov"
       time: "15:20 - 16:00"
     - type: info
-      description: "Coffee Break"
+      description: "Coffee break"
       time: "16:00 - 16:30"
     - type: talk
       talk: "Functional Programming in React"
