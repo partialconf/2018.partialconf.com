@@ -1,4 +1,4 @@
-- day: "Talks -> Firday"
+- day: "Friday -> Talks"
   schedule:
     - type: info
       description: "Registration and Morning Coffee"
@@ -41,7 +41,7 @@
       speaker: "Michał Muskała"
       time: "17:20 - 18:00"
 
-- day: "Talks -> Saturday"
+- day: "Saturday -> Talks"
   schedule:
     - type: info
       description: "Morning Coffee"

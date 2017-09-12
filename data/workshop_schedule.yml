@@ -1,4 +1,4 @@
-- day: "Workshops -> Saturday"
+- day: "Saturday -> Workshops"
   schedule:
     - workshop: "Creating Programming Language from Scratch"
       trainer_1: "Kjetil Valle"
