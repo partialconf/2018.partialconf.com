@@ -104,7 +104,7 @@
   sponsors:
     - name: Toptal
       logo: sponsors/toptal.svg
-      homepage:  http://toptal.com/top-3-percent?utm_source=partial2017&utm_medium=logo&utm_campaign=sponsorships
+      homepage: http://toptal.com/top-3-percent?utm_source=partial2017&utm_medium=logo&utm_campaign=sponsorships
       html: |
         <p>
           Toptal is an exclusive network of the top freelance software developers, designers,
@@ -113,4 +113,21 @@
           <br/><br/>
 
           Top companies rely on Toptal freelancers for their most important projects.
+        </p>
+
+- category: Workshops
+  sponsors:
+    - name: Puzl CowOrKing
+      logo: sponsors/puzl.svg
+      homepage: https://coworking.puzl.com
+      html: |
+        <p>
+          Puzl CowOrKing isn’t just about having a desk and a chair. It’s
+          about being a part of a passionate IT community that grows together
+          and motivates you to do more.
+
+          <br/><br/>
+
+          We offer memberships for individuals, startups and larger companies
+          of up to 40 people. Whatever your needs are - we’ve got ‘ya covered.
         </p>
