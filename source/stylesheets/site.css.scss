@@ -1312,8 +1312,11 @@ textarea { resize: vertical; }
 }
 
 .row {
-  margin-top: 2em;
+  display: inline-block;
+  width: 100%;
   max-width: 100%;
+  min-height: 200px;
+  margin-top: 2em;
 
   .col-1 {
     @include bp($bp-mobile) {
