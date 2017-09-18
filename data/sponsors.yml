@@ -21,6 +21,16 @@
           predominantly the Ruby and Rails stack.
         </p>
 
+    - name: æternity
+      id: aeternity
+      logo: sponsors/aeternity.svg
+      homepage: https://aeternity.com
+      html: |
+        <p>
+          æternity is a new blockchain technology, designed to deliver unmatched efficiency,
+          transparent governance and global scalability.
+        </p>
+
 - category: Gold
   sponsors:
     - name: Tick42
