@@ -14,36 +14,16 @@ title: Homepage
       technologies used on the web. We bring people from different parts of the
       functional world to exchange ideas.
     </p>
-
-    <a href="#tickets" class="btn-primary btn-invert">Buy Tickets 69€</a>
   </div>
-
 </div>
 
 <div class="spacing-both">
   <div class="container accent-container">
-    <div class="accent">
-      <%= image_tag 'accent.png' %>
-    </div>
-
     <div class="accent-content">
-      <h2>About Partial</h2>
-
-      <p>
-        We're that new conference showcasing the latest functional web
-        technologies. We provide you with an opportunity to meet experts in
-        the field and to discuss ways to make your work better!
-      </p>
-
-      <p>
-        We've got the perfect recipe for you to enjoy a couple of
-        early-autumn days packed full of lectures &amp; workshops covering the spectrum
-        of functional web technologies &mdash; all the while enjoying the hidden gem
-        that is Sofia.
-      </p>
-
-      <%= link_to 'Full announcement →', 'blog/announcement', class: 'btn-primary' %>
+      <h2>Schedule</h2>
     </div>
+
+    <%= partial 'schedule' %>
   </div>
 </div>
 
@@ -83,42 +63,6 @@ title: Homepage
   </div>
 </div>
 
-<div class="spacing-both">
-  <div class="container">
-    <h2 id="tickets">Tickets</h2>
-    <p>
-      This is the ticket reservation form for Partial. If you need more
-      information or an invoice, please consult with the <a href="/tickets#faq">Tickets FAQ section</a>.
-    </p>
-    <script src="https://cdn.weemss.com/compiled/js/integration-embed.js?v76.9"></script><iframe src="https://event.gg/6168/form/6162" id="weemss_integration_6162" frameBorder="0" width="100%" height="450" scrolling="no"></iframe>
-  </div>
-</div>
-
-<div class="dark spacing-both image sofia">
-  <div class="overlay"></div>
-  <div class="container text">
-    <h2>Subscribe for news</h2>
-
-    <p>
-      We have lot's of exciting things in the works. Subscribe to our
-      newsletter to be the first to learn about them. Your email won't be
-      shared with sponsors or any other third party.
-    </p>
-
-    <div class="mailchimp">
-      <div id="mc_embed_signup">
-        <form action="//partialconf.us15.list-manage.com/subscribe/post?u=956b02b076ff39618af330bb0&amp;id=6e539c98fc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-          <div id="mc_embed_signup_scroll">
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your@email.com" required>
-            <div class="hide"><input type="text" name="b_956b02b076ff39618af330bb0_6e539c98fc" tabindex="-1" value=""></div>
-            <button class="btn-primary btn-invert" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="spacing-both light">
   <div class="container accent-container">
     <h2>Our partners</h2>
@@ -131,15 +75,6 @@ title: Homepage
           </span>
         <% end %>
       <% end %>
-    </div>
-
-    <p>
-      If your company is interested in supporting Partial, you can learn more
-      about the partner opportunities by following the link below.
-    </p>
-
-    <div class='index-sponsors-section'>
-      <a href="/sponsorship" class="btn-primary">Become a partner</a>
     </div>
   </div>
 </div>
