@@ -64,3 +64,6 @@
     - type: info
       description: "Sofia Walking Tour (we start at Hilton)"
       time: "14:00 - 16:30"
+    - type: info
+      description: "Party at Mixtape 5 🎉"
+      time: "20:30"
