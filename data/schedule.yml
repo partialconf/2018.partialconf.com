@@ -45,16 +45,20 @@
   schedule:
     - type: info
       description: "Morning Coffee"
-      time: "09:00 - 10:00"
+      time: "09:00 - 09:30"
     - type: talk
       talk: "Side Effects Saga"
       speaker: "Yulia Startsev"
-      time: "10:00 - 10:40"
+      time: "09:30 - 10:10"
     - type: talk
       talk: "Elm"
       speaker: "Ilias Van Peer"
-      time: "10:50 - 11:30"
+      time: "10:20 - 11:00"
     - type: talk
       talk: "Basic Guarantees of Erlang VM (BEAM)"
       speaker: Saša Jurić
-      time: "11:40 - 12:20"
+      time: "11:10 - 11:50"
+    - type: talk
+      talk: "Lightning talks"
+      speaker: ""
+      time: "12:00 - 12:30"
