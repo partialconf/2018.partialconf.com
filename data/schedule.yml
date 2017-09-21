@@ -58,7 +58,9 @@
       talk: "Basic Guarantees of Erlang VM (BEAM)"
       speaker: Saša Jurić
       time: "11:10 - 11:50"
-    - type: talk
-      talk: "Lightning talks"
-      speaker: ""
+    - type: info
+      description: "Lightning talks"
       time: "12:00 - 12:30"
+    - type: info
+      description: "Sofia Walking Tour (we start at Hilton)"
+      time: "14:00 - 16:30"
