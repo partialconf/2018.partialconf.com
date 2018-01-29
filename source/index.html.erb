@@ -6,77 +6,57 @@ title: Homepage
 
 <div class="header">
   <div class="container">
-    <h1 class="logo logo-sm">partial :: Conf -> 2017</h1>
-    <h2>22–23 September, Sofia</h2>
+    <h1 class="logo logo-sm">partial :: Conf -> 2018</h1>
+    <h2>September 2018, Sofia</h2>
 
-    <p>
-      Software conference focusing on modern functional languages and
-      technologies used on the web. We bring people from different parts of the
-      functional world to exchange ideas.
-    </p>
-
-    <a class="btn-primary btn-invert">Sold Out!</a><Paste>
   </div>
 </div>
 
 <div class="spacing-both">
   <div class="container accent-container">
+    <div class="accent">
+      <%= image_tag 'accent.png' %>
+    </div>
+
     <div class="accent-content">
-      <h2 id="schedule">Schedule</h2>
+      <h2>About Partial</h2>
+
+      <p>
+        The web, lambda calculus, the meaning of life and everything else.
+        Distribute yourself with some Erlang. Prevent you some runtime errors
+        with Elm. Transactional memorize yourself with some Clojure… This and way
+        more at partial, your partially applied conference in Sofia,
+        Bulgaria.
+      </p>
+
+      <p>
+        The very first edition of Partial happened on 22-23 of September, 2017. This year we're on again! While we pipeline that new data to you, you can check-out the videos from last year.
+        Here is a link to the old site and the videos.
+      </p>
     </div>
-
-    <%= partial 'schedule' %>
   </div>
 </div>
 
-<div class="lineup light spacing-both">
-  <div class="container section-title">
-    <h2 id="speakers">Lineup</h2>
-  </div>
-</div>
+<div class="light spacing-both  sofia">
+  <div class="container text">
+    <h2>Subscribe</h2>
 
-<div class="light spacing-bottom">
-  <div class="container">
-    <div class="speakers">
-      <% data.speakers.each do |speaker| %>
-        <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
-          <div class="avatar">
-            <%= image_tag speaker.image %>
+    <p>
+      We have exciting parts in the works. Subscribe to our newsletter to be
+      the first to learn about them. Your email won't be shared with sponsors
+      or any other third party.
+    </p>
+
+    <div class="mailchimp">
+      <div id="mc_embed_signup">
+        <form action="//partialconf.us15.list-manage.com/subscribe/post?u=956b02b076ff39618af330bb0&amp;id=6e539c98fc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your@email.com" required>
+            <div class="hide"><input type="text" name="b_956b02b076ff39618af330bb0_6e539c98fc" tabindex="-1" value=""></div>
+            <button class="btn-primary btn-invert" type="submit" value="Subscribe" name="subscribe">Subscribe</button>
           </div>
-
-          <strong><%= speaker.name %></strong>
-          <small><%= speaker.tagline %></small>
-        </a>
-      <% end %>
-
-      <% data.trainers.each do |speaker| %>
-      <div class="speaker">
-        <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
-          <div class="avatar">
-            <%= image_tag speaker.image %>
-          </div>
-        </a>
-
-        <strong><%= speaker.name %></strong>
-        <small><%= speaker.tagline %></small>
+        </form>
       </div>
-      <% end %>
-    </div>
-  </div>
-</div>
-
-<div class="spacing-both light">
-  <div class="container accent-container">
-    <h2>Our partners</h2>
-
-    <div class='index-sponsors-section'>
-      <% data.sponsors.each do |meta| %>
-        <% meta.sponsors.each do |sponsor| %>
-          <span class="sponsor-avatar">
-            <%= link_to image_tag(sponsor.logo), "/partners##{sponsor.id}" %>
-          </span>
-        <% end %>
-      <% end %>
     </div>
   </div>
 </div>
