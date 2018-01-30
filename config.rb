@@ -27,7 +27,7 @@ configure :build do
 end
 
 activate :gh_pages do |gh_pages|
-  gh_pages.remote = 'https://github.com/partialconf/2017.partialconf.com'
+  gh_pages.remote = 'https://github.com/partialconf/2018.partialconf.com'
 end
 
 activate :blog do |blog|
