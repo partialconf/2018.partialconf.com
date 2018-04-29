@@ -111,5 +111,27 @@ title: Homepage
   </div>
 </div>
 
+<div class="light spacing-both">
+  <div class="container accent-container">
+    <h2>Our partners</h2>
+
+    <div class="container">
+      <% data.sponsors.each do |meta| %>
+        <% meta.sponsors.each do |sponsor| %>
+          <div class="row" id=<%= "\"#{sponsor.id}\"" %>>
+            <div class="col-1">
+              <%= link_to image_tag(sponsor.logo), sponsor.homepage, target: "_blank" %>
+            </div>
+            <div class="col-2">
+              <h3><%= sponsor.name %></h3>
+              <%= link_to URI(sponsor.homepage).host, sponsor.homepage, target: "_blank", class: "fancy" %>
+              <%= sponsor.html %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
 
 <%= partial 'footer' %>
