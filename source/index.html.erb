@@ -111,5 +111,20 @@ title: Homepage
   </div>
 </div>
 
+<div class="spacing-both light">
+  <div class="container accent-container">
+    <h2>Our partners</h2>
+
+    <div class='index-sponsors-section'>
+      <% data.sponsors.each do |meta| %>
+        <% meta.sponsors.each do |sponsor| %>
+          <span class="sponsor-avatar">
+            <%= link_to image_tag(sponsor.logo), "/partners##{sponsor.id}" %>
+          </span>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
 
 <%= partial 'footer' %>

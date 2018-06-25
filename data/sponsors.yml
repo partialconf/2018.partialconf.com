@@ -1,143 +1,18 @@
-- category: Platinum
-  sponsors:
-    - name: eMerchantPay
-      id: emerchantpay
-      logo: sponsors/emerchantpay.svg
-      homepage: https://www.emerchantpay.com
-      html: |
-        <p>
-          eMerchantPay is a leading online, mobile and POS payment service provider.
-          We help e-commerce businesses of all sizes and sectors accept payments via multiple
-          customer touch points. Designed to increase conversions, our offering includes robust
-          payment processing technology, coupled with popular alternative payment methods and a range
-          of acquiring services. eMerchantPay Limited is registered as an authorised Electronic Money
-          Institution (EMI) and has the FCA’s permission to issue electronic money (e-money)
-          and provide payment services under registration number
-          <a class="fancy" href="https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000003jN1U9AAK" target="blank">900778</a>.
-
-          <br/><br/>
-          We are a self-funded, product-based company, and working on a number of challenging
-          (both code and infrastructure), high-uptime (99.99%) payment products, utilising
-          predominantly the Ruby and Rails stack.
-        </p>
-
-    - name: æternity
-      id: aeternity
-      logo: sponsors/aeternity.svg
-      homepage: https://aeternity.com
-      html: |
-        <p>
-          æternity is a new blockchain technology, designed to deliver unmatched efficiency,
-          transparent governance and global scalability.
-        </p>
-
-- category: Gold
-  sponsors:
-    - name: Tick42
-      id: tick-42
-      logo: sponsors/tick42.svg
-      homepage: https://tick42.com
-      html: |
-        <p>
-          <a class="fancy" href="https://www.tick42.com/" target="blank">Tick42</a> is an
-          international company with office in Sofia, London and New York, that
-          delivers software to some of the world’s largest investment banks and
-          hedge funds. We’re always looking for critically thinking people to
-          <a class="fancy" href="https://www.tick42.com/careers" target="blank">join</a> our
-          Sofia team.  With a history of helping large corporate clients
-          rethink the way that they structure internal development, we are
-          particularly interested in how desktop and web applications can
-          interwork to provide an enriched user experience. Our integration
-          product, <a class="fancy" href="https://glue42.com/" target="blank">Glue</a>,
-          achieves that and as a consequence can help break down the barriers
-          between development teams. This in turn enables developers to break
-          free from the silos that restrict their imagination allowing for a
-          more integrated and user-focused approach to UX and architecture.
-        </p>
-
-- category: Silver
-  sponsors:
-    - name: Mozilla
-      id: mozilla
-      logo: sponsors/mozilla.svg
-      homepage: https://mozilla.org
-      html: |
-        <p>
-          At Mozilla, we’re a global community of technologists, thinkers and
-          builders working together to keep the Internet alive and accessible, so
-          people worldwide can be informed contributors and creators of the Web.
-          We believe this act of human collaboration across an open platform is
-          essential to individual growth and our collective future.
-
-          <br/><br/>
-
-          Read the <a class="fancy" href="https://www.mozilla.org/en-US/about/manifesto" target="blank">
-          Mozilla Manifesto</a> to learn even more about the values and principles that
-          guide the pursuit of our mission
-        </p>
-
-    - name: Subvisual
-      id: subvisual
-      logo: sponsors/subvisual.svg
-      homepage: https://subvisual.co
-      html: |
-        <p>
-          <a class="fancy" href="https://subvisual.co" target="blank">Subvisual</a> is a small
-          but powerful team, with a diverse set of skills, from Product
-          Strategy to Design and Development. With offices in Braga, Portugal
-          and Boston, US we are experts in making products come to life, from
-          ideas to full-fledged businesses.
-
-          <br/><br/>
-
-          We work alongside our clients to help them understand the problem
-          they are solving and the people who will use it, using a Human-centered
-          approach. All with the quality of true craftspeople and a completely
-          transparent process necessary for a productive partnership. From
-          conception to execution and business lift off, our team will help you
-          get to the right product.
-        </p>
-
 - category: Bronze
   sponsors:
-    - name: HackSoft
-      id: hacksoft
-      logo: sponsors/hacksoft.svg
-      homepage: https://hacksoft.io
+    - name: Team Extension
+      id: team_extension
+      logo: sponsors/team-extension.svg
+      homepage: https://teamextension.ro/
       html: |
         <p>
-          HackSoft is a software company that makes end-to-end software solutions – from design & architecture, to project management and development,
-          testing and support.
-        </p>
-
-- category: Goodie Bag
-  sponsors:
-    - name: Toptal
-      logo: sponsors/toptal.svg
-      homepage: http://toptal.com/top-3-percent?utm_source=partial2017&utm_medium=logo&utm_campaign=sponsorships
-      html: |
-        <p>
-          Toptal is an exclusive network of the top freelance software developers, designers,
-          and finance experts in the world.
-
-          <br/><br/>
-
-          Top companies rely on Toptal freelancers for their most important projects.
-        </p>
-
-- category: Workshops
-  sponsors:
-    - name: Puzl CowOrKing
-      logo: sponsors/puzl.svg
-      homepage: https://coworking.puzl.com
-      html: |
-        <p>
-          Puzl CowOrKing isn’t just about having a desk and a chair. It’s
-          about being a part of a passionate IT community that grows together
-          and motivates you to do more.
-
-          <br/><br/>
-
-          We offer memberships for individuals, startups and larger companies
-          of up to 40 people. Whatever your needs are - we’ve got ‘ya covered.
+          Team Extension - Hire Dedicated Developers
+          Finding talented developers is hard. Working with freelancers is a gamble,
+          especially if you are working with sensitive data and tight deadlines.
+          Team Extension solves all of these problems for you by sourcing and hiring
+          the most talented dedicated developers to help your projects come to life.
+          Many companies — both large and small — have faced challenges with finding
+          talented developers including candidate qualifications, team dynamics, and
+          bottom-line financials. Our unique solution for hiring top of the line resources
+          addresses these concerns.
         </p>
