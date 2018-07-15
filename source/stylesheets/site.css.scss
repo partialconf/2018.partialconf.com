@@ -7,11 +7,10 @@ $heading-font: 'Fira Mono', monospace;
 $base-font-size: 18px;
 
 // Colors
-$blue: #2196F3;
-$blue-hint: #4DABF5;
-$dark-blue: darken($blue, 10%);
-$light-blue: #BBDEFB;
-$red: #FF5252;
+$brand: #E93C55;
+$brand-hint: lighten($brand, 10%);
+$dark-brand: darken($brand, 10%);
+$light-brand: lighten($brand, 10%);
 $gray: #BDBDBD;
 $light-gray: #EFEFEF;
 $dark-gray: #999999;
@@ -180,7 +179,7 @@ a {
 
 a.fancy {
   position: relative;
-  color: $dark-blue;
+  color: $dark-brand;
 
   &:before {
     position: absolute;
@@ -189,12 +188,12 @@ a.fancy {
     height: 1px;
     width: 0;
     content: '';
-    background-color: $dark-blue;
+    background-color: $dark-brand;
     transition: all 0.2s ease-in-out;
   }
   &, &:hover { text-decoration: none; }
   &:hover {
-    color: $dark-blue;
+    color: $dark-brand;
     &:before { width: 100%; }
   }
 }
@@ -341,14 +340,14 @@ table {
 }
 
 .dark {
-  background-color: $blue;
+  background-color: $brand;
   color: #fff;
 
   a {
-    color: $light-blue;
+    color: $light-brand;
 
-    &:hover { color: $light-blue; }
-    &:before { background-color: $light-blue; }
+    &:hover { color: $light-brand; }
+    &:before { background-color: $light-brand; }
   }
 
   a[class^="btn"] { color: #fff; }
@@ -366,7 +365,7 @@ table {
       right: 0;
       bottom: 0;
       left: 0;
-      background-color: $blue;
+      background-color: $brand;
       opacity: .9;
       z-index: 2;
     }
@@ -432,7 +431,7 @@ table {
 
     a {
       text-decoration: underline;
-      color: $blue;
+      color: $brand;
 
       &:hover { text-decoration: none; }
     }
@@ -514,15 +513,15 @@ table {
   @extend %btn;
 
   color: #fff;
-  background: $blue;
+  background: $brand;
 
   &:hover {
     color: #fff;
-    background: $dark-blue;
+    background: $dark-brand;
   }
 
   &:disabled, &.disabled {
-    background: $blue;
+    background: $brand;
     color: #fff;
   }
 
@@ -558,7 +557,7 @@ table {
   border-color: $light-gray;
 
   &:hover {
-    border-color: $dark-blue;
+    border-color: $dark-brand;
   }
 
   &:disabled, &.disabled {
@@ -580,7 +579,7 @@ table {
 .btn-text {
   @extend %btn;
 
-  color: $blue;
+  color: $brand;
 
   &:hover {
     text-decoration: underline;
@@ -740,7 +739,7 @@ textarea { resize: vertical; }
   padding: 6em 0;
   text-align: center;
   color: #fff;
-  background-color: $blue;
+  background-color: $brand;
 
   .container {
     position: relative;
@@ -749,7 +748,8 @@ textarea { resize: vertical; }
 
   h2 {
     margin: 1em 0;
-    color: $light-blue;
+    color: #FFF;
+    opacity: .7;
     font-size: 1.5em;
   }
 
@@ -776,7 +776,7 @@ textarea { resize: vertical; }
 
 .header-sm {
   padding: 1em;
-  background-color: $blue;
+  background-color: $brand;
   color: #fff;
   text-transform: uppercase;
 
@@ -843,7 +843,7 @@ textarea { resize: vertical; }
 .footer {
   @include angle(before);
 
-  background-color: $blue-hint;
+  background-color: $brand-hint;
   padding: 2em 0;
 
   a {
@@ -889,7 +889,7 @@ textarea { resize: vertical; }
       margin-right: 2em;
       color: $dark-gray;
 
-      &:hover { color: $blue; }
+      &:hover { color: $brand; }
 
       &:last-child { margin-right: 0; }
     }
@@ -999,7 +999,7 @@ textarea { resize: vertical; }
     }
 
     th {
-      color: $dark-blue;
+      color: $dark-brand;
     }
 
     .hour {
@@ -1044,7 +1044,7 @@ textarea { resize: vertical; }
     font-weight: bold;
 
     &:hover {
-      color: $dark-blue;
+      color: $dark-brand;
     }
   }
 
@@ -1258,7 +1258,7 @@ textarea { resize: vertical; }
   }
 
   .text-accent {
-    color: $dark-blue;
+    color: $dark-brand;
     font-size: 1.2em;
     font-weight: bold;
   }
@@ -1290,7 +1290,7 @@ textarea { resize: vertical; }
 
     h1 {
       margin-bottom: 0.5em;
-      color: $dark-blue;
+      color: $dark-brand;
       font-size: 1.2em;
       font-weight: bold;
     }
@@ -1308,7 +1308,7 @@ textarea { resize: vertical; }
 }
 
 .turbolinks-progress-bar {
-  background-color: $blue;
+  background-color: $brand;
 }
 
 .row {
@@ -1397,7 +1397,7 @@ textarea { resize: vertical; }
 
   h4 {
     margin-bottom: 1em;
-    color: $blue;
+    color: $brand;
   }
 
   @include bp($bp-mobile) {
@@ -1417,7 +1417,7 @@ textarea { resize: vertical; }
   h4 {
     margin-top: 1em;
     margin-bottom: 1em;
-    color: $blue;
+    color: $brand;
     text-align: right;
   }
 
@@ -1427,7 +1427,7 @@ textarea { resize: vertical; }
 
   .schedule-time {
     span {
-      color: $blue;
+      color: $brand;
       font-weight: bold;
     }
     width: 30%;
@@ -1441,6 +1441,6 @@ textarea { resize: vertical; }
   }
 
   a.fancy {
-    color: $blue;
+    color: $brand;
   }
 }
