@@ -3,13 +3,15 @@
   image: speakers/peter.png
   talk: "Lesson learned by 4 years of F# in production"
   bio: |
-    I'm a simple guy, who loves to code and do anything tech related. I like to
+    <p>I'm a simple guy, who loves to code and do anything tech related. I like to
     spend time exploring new technologies and trying them on personal projects,
     but unfortunately, I rarely finish any of them. I also have an unhealthy
-    interest in math and physics, although I'm pretty bad at both. And maybe
+    interest in math and physics, although I'm pretty bad at both.</p>
+
+    <p>And maybe
     the final thing that may sound interesting, in the last 3-4 years I'm
     participating in Bulgarian folk dance ensemble. We are often going on
-    performance all over the country and couple of times abroad.
+    performance all over the country and couple of times abroad.</p>
 
 - name: Ilona Demidenko
   tagline: React and Redux
@@ -25,38 +27,43 @@
   image: speakers/nikolay.png
   talk: The Rise Of The Functions
   bio: |
-    Nikolay Tsvetinov (Meddle) has 12+ years of programming experience. He
-    likes the mathematical side of programming, with interests in lambda
-    calculus, combinators, category theory, abstract algebra, reactive
-    programming and concurrency models. He's been coding everything web, from
-    devops through back-ends and APIs to frond-ends and single page
-    applications. He's been creating stuff in Java/Ruby/JavaScript/Elixir/Go
-    and playing with Scheme, Haskell, Rust and Erlang. He currently works for
-    TransportAPI, a London based public transport company in the UK. He
-    authored "Learning Reactive Programming with Java 8" and created ProAct
+    <p>Nikolay Tsvetinov (Meddle) has 13+ years of programming experience.</p>
+
+    <p>He likes the mathematical side of programming, with interests in lambda
+    calculus, combinators, category theory, type theory, abstract algebra,
+    reactive programming and concurrency models.</p>
+
+    <p>He's been coding everything web, from devops through back-ends and APIs to
+    frond-ends and single page applications.</p>
+
+    <p>He's been creating stuff in Java/Ruby/JavaScript/Elixir/Go/Rust and playing
+    with Scheme, Haskell and Erlang.</p>
+
+    <p>He currently works for Inflowmatix, a UK based company. He authored
+    "Learning Reactive Programming with Java 8" and created ProAct, a
     JavaScript reactive library as well as the Reacto Ruby reactive library. He
-    is also the creator of the Blogit blog engine, written in Elixir. Nikolay
-    is an active member of the Elixir community and is part of the
-    elixir-lang.bg organisation, which gives a "Functional Programming With
-    Elixir" course at Sofia University and is part of the Bulgarian Elixir
-    meetup community.
+    is also the creator of the Blogit blog engine, written in Elixir.</p>
+
+    <p>Nikolay is an active member of the Elixir community and is part of the
+    elixir-lang.bg team, which gives a "Functional Programming With Elixir"
+    course at Sofia University and is part of the Bulgarian Elixir community.</p>
 
 - name: Kiko Fernandez
   tagline: Compilers
   image: speakers/kiko.png
   talk: "Building a compiler: it is all about monads"
   bio: |
-    Kiko is a PhD student in programming languages and the main lecturer of
+    <p>Kiko is a PhD student in programming languages and the main lecturer of
     Advanced Software Design course at Uppsala University. He is also a core
     developer of the Encore programming language, has written research
     publications about concurrent and parallel data structures and has won two
-    best paper awards in his short (yet) academic career.
+    best paper awards in his short (yet) academic career.</p>
 
-    Before doing research, he used to work as a consultant, writing software in
-    languages such as Java, Python, Ruby and Clojure among others.
+    <p>Before doing research, he used to work as a consultant, writing software in
+    languages such as Java, Python, Ruby and Clojure among others.</p>
 
-    He is always learning some new and loves to spend time with his family.
-    Father.
+    <p>He is always learning some new and loves to spend time with his family.
+    Father.</p>
 
 - name: Radoslav Kirov
   tagline: Type Systems
@@ -96,7 +103,7 @@
     she puts open data on maps.
 
 - name: Konstantin Zolotarev
-  tagline: Rust
+  tagline: Nerves & Smart Cars
   image: speakers/konstantin.png
   talk: Making a smart car with Elixir and nerves
   bio: |
