@@ -15,45 +15,45 @@ title: Homepage
       with Elm. Transactional memorize yourself with some Clojure… 
     </p>
 
-    <a href="https://goo.gl/PpcTAS" class="btn-default btn-invert">Become a speaker</a>
     <a href="blog/announcement-v2-0" class="btn-default btn-invert">Read the announcement</a>
   </div>
 </div>
 
-<div class="spacing-both" id="cfp">
-  <div class="container accent-container">
-    <div class="accent">
-      <%= image_tag 'library_accent.png' %>
+<div class="lineup light spacing-both">
+  <div class="container section-title">
+    <h2 id="speakers">Lineup</h2>
+  </div>
+</div>
+
+<div class="light spacing-bottom">
+  <div class="container">
+    <div class="speakers">
+      <% data.speakers.each do |speaker| %>
+        <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
+          <div class="avatar">
+            <%= image_tag speaker.image %>
+          </div>
+
+          <strong><%= speaker.name %></strong>
+          <small><%= speaker.tagline %></small>
+        </a>
+      <% end %>
     </div>
-    <div class="spotlight accent-cointainer">
-      <div class="col">
-        <h3>Call for Papers</h3>
+  </div>
+</div>
 
-        <p>
-          We are looking for talks about modern functional programming
-          languages and technologies for the web. The timeslot is 20 to 30
-          minutes.
-        </p>
+<div class="spacing-both">
+  <div class="container accent-container">
+    <h2>Our partners</h2>
 
-        <p>
-          We would love to hear from your experience on how they are used in
-          your company, or personal projects. Here are the usual suspects:
-        </p>
-
-        <ul>
-          <li>Erlang, Elixir</li>
-          <li>Clojure, ClojureScript</li>
-          <li>Elm, PureScript, Haskell</li>
-          <li>React, Redux</li>
-          <li>Everything λ</li>
-        </ul>
-
-        <p>The deadline is 20th of August.</p>
-
-        <div class="btn-wrapper">
-          <a href="https://goo.gl/PpcTAS" class="btn-primary" target="_blank">Submit your talk</a>
-        </div>
-      </div>
+    <div class='index-sponsors-section'>
+      <% data.sponsors.each do |meta| %>
+        <% meta.sponsors.each do |sponsor| %>
+          <span class="sponsor-avatar">
+            <%= link_to image_tag(sponsor.logo), "/partners##{sponsor.id}" %>
+          </span>
+        <% end %>
+      <% end %>
     </div>
   </div>
 </div>
@@ -78,22 +78,6 @@ title: Homepage
           </div>
         </form>
       </div>
-    </div>
-  </div>
-</div>
-
-<div class="spacing-both">
-  <div class="container accent-container">
-    <h2>Our partners</h2>
-
-    <div class='index-sponsors-section'>
-      <% data.sponsors.each do |meta| %>
-        <% meta.sponsors.each do |sponsor| %>
-          <span class="sponsor-avatar">
-            <%= link_to image_tag(sponsor.logo), "/partners##{sponsor.id}" %>
-          </span>
-        <% end %>
-      <% end %>
     </div>
   </div>
 </div>

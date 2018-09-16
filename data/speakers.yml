@@ -1,116 +1,106 @@
-- name: Michał Muskała
-  tagline: Ecto Core Team
-  image: speakers/michal.jpg
-  talk: Actor Model in Elixir
+- name: Peter Kostov
+  tagline: "F# in Production"
+  image: speakers/peter.png
+  talk: "Lesson learned by 4 years of F# in production"
   bio: |
-    Student during mornings, developer at afternoons and open source
-    contributor by evenings. Michal is programming languages enthusiast,
-    focusing mostly on the functional side. He is a member of the Elixir's Ecto
-    core team and maintainer of the MongoDB adapter. He's Google Summer of Code
-    2015 alumni, where he worked on Ecto and its MongoDB integration supervised
-    by José Valim himself. When not programming he enjoys reading books,
-    travelling, and sailing - no matter if sunny, rainy or stormy - it's even
-    better if all of those are combined!
+    I'm a simple guy, who loves to code and do anything tech related. I like to
+    spend time exploring new technologies and trying them on personal projects,
+    but unfortunately, I rarely finish any of them. I also have an unhealthy
+    interest in math and physics, although I'm pretty bad at both. And maybe
+    the final thing that may sound interesting, in the last 3-4 years I'm
+    participating in Bulgarian folk dance ensemble. We are often going on
+    performance all over the country and couple of times abroad.
 
-- name: Saša Jurić
-  tagline: Elixir in Action
-  image: speakers/sasa.png
-  talk: Basic Guarantees of Erlang VM (BEAM)
+- name: Ilona Demidenko
+  tagline: React and Redux
+  image: speakers/ilona.png
+  talk: Conversational Sign Up with Chatbot-like experience with React and Redux
   bio: |
-    Happy user of Elixir, and a satisfied customer of Erlang/OTP, currently
-    working on a privacy compliance solution at Aircloak. Author of "Elixir in
-    Action", and occasional blogger at theerlangelist.com.
+    I am a Front-End Web Developer. My focus is on Javascript, React/Redux
+    front-end applications, and UX Design. Intrigued by blogging, traveling,
+    writing. I like to work hard for things that are worth it.
 
-- name: Bozhidar Batzov
-  tagline: Clojure, CIDER, Rubocop
-  image: speakers/bozhidar.jpg
-  talk: "Clojure: The Bad Parts"
+- name: Nikolay Tsvetinov
+  tagline: Elixir
+  image: speakers/nikolay.png
+  talk: The Rise Of The Functions
   bio: |
-    Bozhidar is the author of RuboCop and the editor of the community Ruby
-    style guide. He's involved in a myriad of open-source projects, mostly
-    related to Ruby, Clojure and Emacs. Many people would probably describe him
-    as an Emacs zealot (and they would be right). He's also quite fond of the
-    Lisp family of languages, functional programming in general and Clojure in
-    particular.
+    Nikolay Tsvetinov (Meddle) has 12+ years of programming experience. He
+    likes the mathematical side of programming, with interests in lambda
+    calculus, combinators, category theory, abstract algebra, reactive
+    programming and concurrency models. He's been coding everything web, from
+    devops through back-ends and APIs to frond-ends and single page
+    applications. He's been creating stuff in Java/Ruby/JavaScript/Elixir/Go
+    and playing with Scheme, Haskell, Rust and Erlang. He currently works for
+    TransportAPI, a London based public transport company in the UK. He
+    authored "Learning Reactive Programming with Java 8" and created ProAct
+    JavaScript reactive library as well as the Reacto Ruby reactive library. He
+    is also the creator of the Blogit blog engine, written in Elixir. Nikolay
+    is an active member of the Elixir community and is part of the
+    elixir-lang.bg organisation, which gives a "Functional Programming With
+    Elixir" course at Sofia University and is part of the Bulgarian Elixir
+    meetup community.
 
-- name: Anjana Vakil
-  tagline: JS Immutable Structures
-  image: speakers/anjana.jpg
-  talk: Immutable Data Structures for Functional JS
+- name: Kiko Fernandez
+  tagline: Compilers
+  image: speakers/kiko.png
+  talk: "Building a compiler: it is all about monads"
   bio: |
-    Functional programming has been gaining a lot of popularity in the JS
-    community, and with good reason: rejecting side-effects and mutability -
-    in-place changes to data - helps avoid a lot of headaches. But when you
-    refuse to mutate objects, you have to create a whole new object each time
-    something changes, which can slow things down and eat up memory, making
-    functional programming seem inefficient.
+    Kiko is a PhD student in programming languages and the main lecturer of
+    Advanced Software Design course at Uppsala University. He is also a core
+    developer of the Encore programming language, has written research
+    publications about concurrent and parallel data structures and has won two
+    best paper awards in his short (yet) academic career.
 
-    That’s where immutable data structures come in - to save the day, and time
-    and space! Also called “persistent data structures”, they help you
-    efficiently make new “modified” versions of immutable objects, by reusing
-    parts of the old object that you don’t need to change.
+    Before doing research, he used to work as a consultant, writing software in
+    languages such as Java, Python, Ruby and Clojure among others.
 
-    In this talk we’ll take a look at how these data structures work, why
-    they’re fantastic for functional programming, and how we can easily use
-    them in our JS code thanks to libraries like Mori and Immutable.js.
+    He is always learning some new and loves to spend time with his family.
+    Father.
 
-- name: Emin Hasanov
-  tagline: ClojureScript + React Native
-  image: speakers/emin.png
-  talk: Using Clojurescript to Launch iOS/Android Apps to 1M Users
+- name: Radoslav Kirov
+  tagline: Type Systems
+  image: speakers/radoslav.png
+  talk: "What types of types does TypeScript have?"
   bio: |
-    Story of how a small company in Azerbaijan used ClojureScript + React
-    Native to launch iOS/Android apps to its one million website users. I will
-    go through how we were able to quickly develop and iterate both iOS and
-    Android versions at the same time, how we connected existing Rails app to
-    provide a Transit API, and how we use CodePush to provide over-the-air
-    updates without going through app stores.
+    Rado works on the TypeScript infrastructure team in Google. Previously he
+    worked on Angular (when it was still called Angular 2) and AdSense. At some
+    point he tried to do mathematics for a living, but then thought better of
+    it.
 
-- name: Anna Doubkova
-  tagline: React FP
-  image: speakers/anna.jpg
-  talk: Functional Programming in React
+- name: Krasimir Tsonev
+  tagline: React
+  image: speakers/krasimir.png
+  talk: React is a LIE!
   bio: |
-    Anna is a javascript developer who loves working with new technologies.
-    Currently working at PizzaHut, she does full-stack development to deliver a
-    great end to end solution focused on user experience. She's a frequent
-    speaker, runs workshops, and likes contributing to the community.
+    Krasimir Tsonev is a coder with over ten years of experience in web
+    development. Author of books on Node.js and React he works at Antidote.me
+    where he helps people reaching clinical trials.
 
-- name: Pedro Costa
-  tagline: Functional Discipline
-  image: speakers/pedro.jpg
-  talk: The Functional Discipline
+- name: Andon Sikavica
+  tagline: State Management
+  image: speakers/andon.png
+  talk: Managing Application State "the Functional Way"
   bio: |
-    Self proclaimed Chief Over-Engineering Officer at Subvisual. Jumped from
-    the world of HPC to the Web with Ruby. I have a shady past involving Java and
-    other darker arts. I use my time on this planet with my family, my dog, crazy
-    ideas and heavy weights.
+    Senior Software Engineer at Netcetera, building mobile apps for newspapers.
+    Active contributor to Skele, an architectural framework for building
+    data-driven apps with React Native.
 
-- name: Yulia Startsev
-  tagline: Side Effects Saga
-  image: speakers/yulia.jpg
-  talk: Side Effects Saga
+- name: Lisa Passing
+  tagline: Rust
+  image: speakers/lisa.png
+  talk: Functional Rust - An Exploration
   bio: |
-    Yulia Startsev is a self taught programmer. Her first attempt at
-    programming was at age 12, scripting a Half life mod that placed a number
-    of angry fish out of water while assassins ran around the perimeter. She
-    has worked as an artist, curator, spatial designer, and writer -- not
-    necessarily in that order -- before moving on to programming
-    professionally. She currently spends her time debugging the debugger while
-    developing developer tools. She feels strongly about elegantly programmed
-    UIs, testing, and simplicity.
+    Lisa is a Berlin-based creator of lots of code in the form of video games
+    and generative art. She works at Open Knowledge Foundation Germany where
+    she puts open data on maps.
 
-- name: Ivan Vergiliev
-  tagline: Persistent Data Structures
-  image: speakers/ivan.jpg
-  talk: Persistent Data Structures
+- name: Konstantin Zolotarev
+  tagline: Rust
+  image: speakers/konstantin.png
+  talk: Making a smart car with Elixir and nerves
   bio: |
-    Machine Learning and Algorithms enthusiast. Ex-Facebook and Google (x2)
-    intern.
-
-- name: Ilias Van Peer
-  tagline: Elm Aficionado
-  image: speakers/ilias.png
-  talk: Elm
-  bio: |
-    Coffee. Code. Other stuff.
+    Senior engineer at LiflandGaming Group, Elixir enthusiast. Focusing on
+    highload realtime applications. Love to work with IoT devices and break things.
+    Lives in Tallinn, love playing the guitar, skiing, and spending time fixing
+    car.

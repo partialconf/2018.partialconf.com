@@ -31,32 +31,4 @@ title: Lineup
   </div>
 </div>
 
-<div class="section-title spacing-top">
-  <div class="container">
-    <h2>Trainers</h2>
-  </div>
-</div>
-
-<div class="section-title spacing-both">
-  <div class="container">
-    <div class="article-list">
-      <% data.trainers.each do |speaker| %>
-        <div class="article" id="<%= speaker.name.parameterize %>">
-          <div class="article-image">
-            <%= image_tag speaker.image %>
-          </div>
-
-          <div class="article-description">
-            <h3><%= speaker.name %></h3>
-            <h4><%= speaker.talk %></h4>
-
-            <p><%= speaker.bio %></p>
-          </div>
-        </div>
-      <% end %>
-    </div>
-  </div>
-</div>
-
-
 <%= partial 'footer' %>
