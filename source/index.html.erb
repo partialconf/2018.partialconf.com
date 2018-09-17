@@ -12,10 +12,10 @@ title: Homepage
     <p>
       The web, lambda calculus, the meaning of life and everything else.
       Distribute yourself with some Erlang. Prevent you some runtime errors
-      with Elm. Transactional memorize yourself with some Clojure… 
+      with Elm. Transactional memorize yourself with some Clojure…
     </p>
 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSexcre0-50kvp3tBNaXMphB3LJt6etAOXGLwXVStssqU7MyGA/viewform" class="btn-default btn-invert">Register a Ticket</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSexcre0-50kvp3tBNaXMphB3LJt6etAOXGLwXVStssqU7MyGA/viewform" class="btn-default btn-invert">Save your seat!</a>
   </div>
 </div>
 
@@ -28,14 +28,40 @@ title: Homepage
 <div class="light spacing-bottom">
   <div class="container">
     <div class="speakers">
-      <% data.speakers.each do |speaker| %>
+      <% data.speakers[0..2].each do |speaker| %>
         <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
           <div class="avatar">
             <%= image_tag speaker.image %>
           </div>
 
           <strong><%= speaker.name %></strong>
-          <small><%= speaker.tagline %></small>
+          <small><%= speaker.talk %></small>
+        </a>
+      <% end %>
+    </div>
+
+    <div class="speakers">
+      <% data.speakers[3..5].each do |speaker| %>
+        <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
+          <div class="avatar">
+            <%= image_tag speaker.image %>
+          </div>
+
+          <strong><%= speaker.name %></strong>
+          <small><%= speaker.talk %></small>
+        </a>
+      <% end %>
+    </div>
+
+    <div class="speakers">
+      <% data.speakers[6..8].each do |speaker| %>
+        <a href="/lineup#<%= speaker.name.parameterize %>" class="speaker">
+          <div class="avatar">
+            <%= image_tag speaker.image %>
+          </div>
+
+          <strong><%= speaker.name %></strong>
+          <small><%= speaker.talk %></small>
         </a>
       <% end %>
     </div>

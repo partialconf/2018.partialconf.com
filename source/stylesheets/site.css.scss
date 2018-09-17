@@ -941,15 +941,18 @@ textarea { resize: vertical; }
 
 .speakers {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   flex-wrap: wrap;
 
   .speaker {
-    width: em(190, $base-font-size);
+    width: em(300, $base-font-size);
     margin-bottom: 2em;
 
     strong { display: block; }
-    small { color: $dark-gray; }
+    small {
+      color: $dark-gray;
+      line-height: 1;
+    }
     em {
       font-weight: bold;
       font-style: normal;
