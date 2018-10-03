@@ -16,3 +16,15 @@
           bottom-line financials. Our unique solution for hiring top of the line resources
           addresses these concerns.
         </p>
+    - name: Droxic
+      id: droxic
+      logo: sponsors/droxic.svg
+      homepage: http://droxic.com/
+      html: |
+        <p>
+          DROXIC was founded in 2012 by three friends with over 15 years of experience in the industry.
+          The company focuses on developing web and mobile projects for customers in Europe and North America.
+          In DROXIC, we love challenges, and that attitude helps us create and develop complex and
+          large-scale software solutions. Our main goals are to deliver outstanding quality, make our
+          employees happy and keep our clients completely satisfied with our work!
+        </p>
