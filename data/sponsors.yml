@@ -1,8 +1,27 @@
+- category: Silver
+  sponsors:
+    - name: Star Group
+      id: star_group
+      logo: sponsors/stars-group-logo.svg
+      homepage: http://www.starsgroup.com/
+      html: |
+        <p>
+          The Stars Group is the ultimate owner of industry leading gaming brands such as PokerStars,
+          PokerStars Casino, BetStars, Full Tilt, and the PokerStars Live brands, and through its
+          ownership of Sky Betting & Gaming, a mobile-led leading online gaming operator, licenses
+          the Sky Bet, Sky Vegas, Sky Casino, Sky Bingo and Sky Poker online gaming brands. Collectively,
+          these and other brands of The Stars Group have millions of registered customers globally, forming
+          one of the world’s largest publicly listed online gaming companies.
+          <br />
+          We provide gaming experiences designed to make our platforms the favorite iGaming destinations
+          for customers everywhere by providing technology-based products and services in the global
+          gaming and interactive entertainment industries.
+        </p>
 - category: Bronze
   sponsors:
     - name: Team Extension
       id: team_extension
-      logo: sponsors/team-extension.svg
+      logo: sponsors/team-extensions-logo.svg
       homepage: https://teamextension.ro/
       html: |
         <p>
@@ -18,7 +37,7 @@
         </p>
     - name: Droxic
       id: droxic
-      logo: sponsors/droxic.svg
+      logo: sponsors/droxic-logo.svg
       homepage: http://droxic.com/
       html: |
         <p>
