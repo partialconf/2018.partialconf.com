@@ -84,14 +84,13 @@
     development. Author of books on Node.js and React he works at Antidote.me
     where he helps people reaching clinical trials.
 
-- name: Andon Sikavica
+- name: Bojana Popovska
   tagline: State Management
-  image: speakers/andon.png
+  image: speakers/bojana.png
   talk: Managing Application State "the Functional Way"
   bio: |
-    Senior Software Engineer at Netcetera, building mobile apps for newspapers.
-    Active contributor to Skele, an architectural framework for building
-    data-driven apps with React Native.
+    Senior Engineer at Netcetera. Web/App developer with a passion for Machine Learning.
+    Contributor of Skele, an architectural framework for building data-driven apps with React Native.
 
 - name: Lisa Passing
   tagline: Rust
