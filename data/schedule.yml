@@ -2,45 +2,48 @@
   schedule:
     - type: info
       description: "Coffee -> Break|Registration"
-      time: "09:00 - 09:50"
+      time: "09:00 - 10:20"
     - type: info
       description: "Introduction"
-      time: "09:50 - 10:00"
+      time: "10:30 - 10:40"
     - type: talk
       talk: "Building a compiler: it is all about monads"
       speaker: "Kiko Fernandez"
-      time: "10:00 - 10:30"
+      time: "10:40 - 11:10"
     - type: talk
       talk: "The Rise Of The Functions"
       speaker: "Nikolay Tsvetinov"
-      time: "10:40 - 11:10"
+      time: "11:20 - 11:50"
     - type: talk
       talk: "What types of types does TypeScript have?"
       speaker: "Radoslav Kirov"
-      time: "11:20 - 11:50"
-    - type: talk
-      talk: "Lesson learned by 4 years of F# in production"
-      speaker: "Peter Kostov"
       time: "12:00 - 12:30"
     - type: info
       description: "Lunch -> Break"
       time: "12:30 - 14:00"
     - type: talk
+      talk: "Lesson learned by 4 years of F# in production"
+      speaker: "Peter Kostov"
+      time: "14:00 - 14:30"
+    - type: talk
       talk: "Functional Rust - An Exploration"
       speaker: "Lisa Passing"
-      time: "14:00 - 14:30"
+      time: "14:40 - 15:10"
     - type: talk
       talk: "Making a smart car with Elixir and nerves"
       speaker: "Konstantin Zolotarev"
-      time: "14:40 - 15:10"
-    - type: talk
-      talk: "Managing Application State \"the Functional Way\""
-      speaker: "Bojana Popovska"
       time: "15:20 - 15:50"
     - type: info
       description: "Coffee -> Break"
       time: "15:50 - 16:30"
     - type: talk
+      talk: "Managing Application State \"the Functional Way\""
+      speaker: "Bojana Popovska"
+      time: "16:30 - 17:10"
+    - type: talk
       talk: "React is a LIE!"
       speaker: "Krasimir Tsonev"
-      time: "16:30 - 17:10"
+      time: "17:20 - 17:50"
+    - type: info
+      description: "Closing -> Thoughts"
+      time: "17:50 - 18:00"
