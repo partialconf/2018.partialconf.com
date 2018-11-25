@@ -1,69 +1,46 @@
-- day: "Friday -> Talks"
+- day: "Friday"
   schedule:
     - type: info
-      description: "Registration and Morning Coffee"
+      description: "Coffee -> Break|Registration"
       time: "09:00 - 09:50"
     - type: info
       description: "Introduction"
       time: "09:50 - 10:00"
     - type: talk
-      talk: "Clojure: The Bad Parts"
-      speaker: "Bozhidar Batzov"
-      time: "10:00 - 10:40"
+      talk: "Building a compiler: it is all about monads"
+      speaker: "Kiko Fernandez"
+      time: "10:00 - 10:30"
     - type: talk
-      talk: "The Functional Discipline"
-      speaker: "Pedro Costa"
-      time: "10:50 - 11:30"
+      talk: "The Rise Of The Functions"
+      speaker: "Nikolay Tsvetinov"
+      time: "10:40 - 11:10"
     - type: talk
-      talk: "Immutable Data Structures for Functional JS"
-      speaker: Anjana Vakil
-      time: "11:40 - 12:20"
-    - type: info
-      description: "Lunch break"
-      time: "12:20 - 14:30"
+      talk: "What types of types does TypeScript have?"
+      speaker: "Radoslav Kirov"
+      time: "11:20 - 11:50"
     - type: talk
-      talk: "Persistent Data Structures"
-      speaker: "Ivan Vergiliev"
-      time: "14:30 - 15:10"
-    - type: talk
-      talk: "Using Clojurescript to Launch iOS/Android Apps to 1M Users"
-      speaker: "Emin Hasanov"
-      time: "15:20 - 16:00"
-    - type: info
-      description: "Coffee break"
-      time: "16:00 - 16:30"
-    - type: talk
-      talk: "Functional Programming in React"
-      speaker: "Anna Doubkova"
-      time: "16:30 - 17:10"
-    - type: talk
-      talk: "Actor Model in Elixir"
-      speaker: "Michał Muskała"
-      time: "17:20 - 18:00"
-
-- day: "Saturday -> Talks"
-  schedule:
-    - type: info
-      description: "Morning Coffee"
-      time: "09:00 - 09:30"
-    - type: talk
-      talk: "Side Effects Saga"
-      speaker: "Yulia Startsev"
-      time: "09:30 - 10:10"
-    - type: talk
-      talk: "Elm"
-      speaker: "Ilias Van Peer"
-      time: "10:20 - 11:00"
-    - type: talk
-      talk: "Basic Guarantees of Erlang VM (BEAM)"
-      speaker: Saša Jurić
-      time: "11:10 - 11:50"
-    - type: info
-      description: "Lightning talks"
+      talk: "Lesson learned by 4 years of F# in production"
+      speaker: "Peter Kostov"
       time: "12:00 - 12:30"
     - type: info
-      description: "Sofia Walking Tour (we start at Hilton)"
-      time: "14:00 - 16:30"
+      description: "Lunch -> Break"
+      time: "12:30 - 14:00"
+    - type: talk
+      talk: "Functional Rust - An Exploration"
+      speaker: "Lisa Passing"
+      time: "14:00 - 14:30"
+    - type: talk
+      talk: "Making a smart car with Elixir and nerves"
+      speaker: "Konstantin Zolotarev"
+      time: "14:40 - 15:10"
+    - type: talk
+      talk: "Managing Application State \"the Functional Way\""
+      speaker: "Bojana Popovska"
+      time: "15:20 - 15:50"
     - type: info
-      description: "Party at Mixtape 5 🎉"
-      time: "20:30"
+      description: "Coffee -> Break"
+      time: "15:50 - 16:30"
+    - type: talk
+      talk: "React is a LIE!"
+      speaker: "Krasimir Tsonev"
+      time: "16:30 - 17:10"
