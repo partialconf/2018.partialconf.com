@@ -37,12 +37,12 @@
       description: "Coffee -> Break"
       time: "15:50 - 16:20"
     - type: talk
-      talk: "Conversational sign up with chatbot-like experience with React and Redux"
-      speaker: "Ilona Demidenko"
-      time: "16:20 - 16:50"
-    - type: talk
       talk: "Managing Application State \"the Functional Way\""
       speaker: "Bojana Popovska"
+      time: "16:20 - 16:50"
+    - type: talk
+      talk: "Conversational sign up with chatbot-like experience with React and Redux"
+      speaker: "Ilona Demidenko"
       time: "17:00 - 17:30"
     - type: talk
       talk: "React is a LIE!"
