@@ -30,15 +30,15 @@
       speaker: "Lisa Passing"
       time: "14:40 - 15:10"
     - type: talk
-      talk: "Conversational sign up with chatbot-like experience with React and Redux"
-      speaker: "Ilona Demidenko"
+      talk: "Making a smart car with Elixir and nerves"
+      speaker: "Konstantin Zolotarev"
       time: "15:20 - 15:50"
     - type: info
       description: "Coffee -> Break"
       time: "15:50 - 16:20"
     - type: talk
-      talk: "Making a smart car with Elixir and nerves"
-      speaker: "Konstantin Zolotarev"
+      talk: "Conversational sign up with chatbot-like experience with React and Redux"
+      speaker: "Ilona Demidenko"
       time: "16:20 - 16:50"
     - type: talk
       talk: "Managing Application State \"the Functional Way\""
