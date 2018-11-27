@@ -30,20 +30,24 @@
       speaker: "Lisa Passing"
       time: "14:40 - 15:10"
     - type: talk
-      talk: "Making a smart car with Elixir and nerves"
-      speaker: "Konstantin Zolotarev"
+      talk: "Conversational sign up with chatbot-like experience with React and Redux"
+      speaker: "Ilona Demidenko"
       time: "15:20 - 15:50"
     - type: info
       description: "Coffee -> Break"
-      time: "15:50 - 16:30"
+      time: "15:50 - 16:20"
+    - type: talk
+      talk: "Making a smart car with Elixir and nerves"
+      speaker: "Konstantin Zolotarev"
+      time: "16:20 - 16:50"
     - type: talk
       talk: "Managing Application State \"the Functional Way\""
       speaker: "Bojana Popovska"
-      time: "16:30 - 17:10"
+      time: "17:00 - 17:30"
     - type: talk
       talk: "React is a LIE!"
       speaker: "Krasimir Tsonev"
-      time: "17:20 - 17:50"
+      time: "17:40 - 18:10"
     - type: info
       description: "Closing -> Thoughts"
-      time: "17:50 - 18:00"
+      time: "18:10 - 18:20"
